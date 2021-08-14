@@ -1,0 +1,87 @@
+.centerlogo {
+    height: 40px; width: 40px;
+}
+.flow1 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 480px;
+    margin-right: 480px;
+    color: grey;
+
+}
+nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 480px;
+    margin-right: 480px;
+}
+nav li {
+    display: inline-block;
+    padding-right: 500px;
+}
+.logodoc{
+    max-width:10%;
+    height:auto;
+}   
+.clogo{
+    max-width:10%;
+    height:auto;
+}   
+.tinylogo{
+    max-width:12%;
+    height:auto;
+} 
+.P1{
+ width: 450px; 
+}
+#center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(0, 204, 177);
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 480px;
+    margin-right: 480px;
+}
+.cards .card {
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+    line-height: 30px;
+    text-align: start;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    color: white;
+    position: static;
+}
+.card .absolute{
+    
+    color: white;
+    position: absolute; 
+    bottom: 0px;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 480px;
+    margin-right: 480px; 
+}
+.global{
+
+    width: 450px;
+}
+footer div {
+    color: gray;
+    display: flex;
+    
+    flex-wrap: wrap; 
+    justify-content: space-around;   
+    align-content: flex-start;
+    
+}
